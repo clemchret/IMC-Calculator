@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calcul IMC | Clem</title>
+        <link rel="stylesheet" href="style.css">
+        <script async src="script.js"></script>
+    </head>
+    <body>
+        <h1>Calculez votre IMC</h1>
+
+        <form id="calculIMC">
+
+            <div class="champsTaille">
+                <label for="taille">Taille en cm</label>
+                <input id="taille" name="taille" type="range" required min='120' max='230' value="120" oninput="tailleVal.value = this.value">
+                <output id="tailleVal">120</output>
+            </div>
+
+            <div class="champsPoids">
+                <label for="poids">Poids en kg</label>
+                <input id="poids" name="poids" type="range" required min="20" max="500" value="20" oninput="poidsVal.value = this.value">
+                <output id="poidsVal">20</output>
+            </div>
+
+            <button id="submit" type="button">Envoyer</button>
+
+            <div class="resultat">
+                <span id="resultatIMC"></span><br>
+                <span id="resultatCategorie"></span>
+            </div>
+
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.mince{
+    color: rgb(0, 153, 255);
+}
+
+.normal{
+    color: rgb(21, 255, 0);
+}
+
+.surpoids{
+    color: rgb(255, 251, 0);
+}
+
+.obese{
+    color: rgb(255, 153, 0);
+}
+
+.obeseMob{
+    color: rgb(255, 0, 0);
+}
